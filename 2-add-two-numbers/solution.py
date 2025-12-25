@@ -13,12 +13,14 @@ class Solution:
         while curr1 or curr2 or carry:
             v1 = curr1.val if curr1 else 0
             v2 = curr2.val if curr2 else 0
+
             s = v1 + v2 + carry
             carry = s // 10
             n = s % 10
+            
             curr3.next = ListNode(n)
             curr3 = curr3.next
-            # print('l3 ',curr3.val)
+
             curr1 = curr1.next if curr1 else None
             curr2 = curr2.next if curr2 else None
         return dummy.next

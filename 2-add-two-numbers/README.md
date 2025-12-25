@@ -40,7 +40,7 @@ It is guaranteed that the list represents a number that does not have leading ze
 ## Solution Performance
 
 - **Language:** python3
-- **Runtime:** 8 ms
-- **Memory:** 17.4 MB
+- **Runtime:** 4 ms
+- **Memory:** 17.3 MB
 
 > Synced automatically using **LeetVault**
