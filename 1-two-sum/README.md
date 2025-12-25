@@ -47,7 +47,7 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comp
 ## Solution Performance
 
 - **Language:** python3
-- **Runtime:** 0 ms
+- **Runtime:** 2 ms
 - **Memory:** 18.8 MB
 
 > Synced automatically using **LeetVault**
