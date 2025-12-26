@@ -42,7 +42,7 @@ Follow up: Could you solve it without converting the integer to a string?
 ## Solution Performance
 
 - **Language:** python3
-- **Runtime:** 
-- **Memory:** 
+- **Runtime:** 8 ms
+- **Memory:** 17.3 MB
 
 > Synced automatically using **LeetVault**
