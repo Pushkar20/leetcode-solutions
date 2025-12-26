@@ -102,7 +102,7 @@ s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+
 ## Solution Performance
 
 - **Language:** python3
-- **Runtime:** 2 ms
-- **Memory:** 17.3 MB
+- **Runtime:** 1 ms
+- **Memory:** 17.4 MB
 
 > Synced automatically using **LeetVault**
