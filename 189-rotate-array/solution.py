@@ -3,6 +3,6 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        if k != 0 and k < len(nums):
+        if k != 0 and len(nums) > 1:
             nums[0:0] = nums[-k:]
             del nums[-k:]
