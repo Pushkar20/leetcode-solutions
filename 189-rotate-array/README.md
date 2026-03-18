@@ -45,7 +45,7 @@ Follow up:
 ## Solution Performance
 
 - **Language:** python3
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 0 ms
+- **Memory:** 26.6 MB
 
 > Synced automatically using **LeetVault**
