@@ -42,7 +42,7 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 ## Solution Performance
 
 - **Language:** python3
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 31 ms
+- **Memory:** 31.3 MB
 
 > Synced automatically using **LeetVault**
