@@ -51,7 +51,7 @@ It is not required to do the modifications in-place.
 ## Solution Performance
 
 - **Language:** python3
-- **Runtime:** 44 ms
-- **Memory:** 43.8 MB
+- **Runtime:** 29 ms
+- **Memory:** 42.8 MB
 
 > Synced automatically using **LeetVault**
