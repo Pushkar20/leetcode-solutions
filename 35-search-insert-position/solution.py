@@ -10,4 +10,4 @@ class Solution:
                 i = mid + 1
             else:
                 n = mid - 1
-        return mid+1
+        return i

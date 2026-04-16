@@ -40,7 +40,7 @@ nums contains distinct values sorted in ascending order.
 ## Solution Performance
 
 - **Language:** python3
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 0 ms
+- **Memory:** 20 MB
 
 > Synced automatically using **LeetVault**
