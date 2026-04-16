@@ -4,12 +4,13 @@ class Solution:
         i = 0
 
         def expand_mid(nums, mid):
-            l = float(-inf)
+            l = 0
             r = mid
             while mid > 0 and nums[mid] == nums[mid-1]:
                 l = mid - 1
                 mid -= 1
-            while r < len(nums) and nums[r] == nums[r+1]:
+            print(r, len(nums), mid)
+            while r < (len(nums)-1) and nums[r] == nums[r+1]:
                 r += 1
             return [l, r]
 
