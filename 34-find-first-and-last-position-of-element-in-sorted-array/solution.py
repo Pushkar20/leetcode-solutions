@@ -4,12 +4,9 @@ class Solution:
         i = 0
 
         def expand_mid(nums, mid):
-            l = 0
-            r = mid
-            while mid > 0 and nums[mid] == nums[mid-1]:
-                l = mid - 1
-                mid -= 1
-            print(r, len(nums), mid)
+            l = r = mid
+            while l > 0 and nums[l] == nums[l-1]:
+                l -= 1
             while r < (len(nums)-1) and nums[r] == nums[r+1]:
                 r += 1
             return [l, r]
