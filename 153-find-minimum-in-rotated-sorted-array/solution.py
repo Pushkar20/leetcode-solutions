@@ -3,14 +3,10 @@ class Solution:
         l = 0
         r = len(nums) - 1
 
-        while l <= r:
+        while l < r:
             mid = (l+r)//2
             if nums[mid] <= nums[r]:
-                if nums[mid] <= nums[l]:
-                    return nums[mid]
-                r = mid - 1
+                r = mid
             else:
-                if nums[mid] <= nums[r]:
-                    return nums[mid]
                 l = mid + 1
-        return -1
+        return nums[left]
