@@ -7,7 +7,6 @@ Given a string s, sort it in decreasing order based on the frequency of the char
 Return the sorted string. If there are multiple answers, return any of them.
 
  
-
 Example 1:
 
 Input: s = "tree"
@@ -33,18 +32,18 @@ Note that 'A' and 'a' are treated as two different characters.
 
 
  
-
 Constraints:
 
-1 <= s.length <= 5 * 105
-s consists of uppercase and lowercase English letters and digits.
+
+	1 <= s.length <= 5 * 105
+	s consists of uppercase and lowercase English letters and digits.
 
 ---
 
 ## Solution Performance
 
 - **Language:** python3
-- **Runtime:** 7 ms
-- **Memory:** 20.1 MB
+- **Runtime:** 2 ms
+- **Memory:** 20.2 MB
 
 > Synced automatically using **LeetVault**
