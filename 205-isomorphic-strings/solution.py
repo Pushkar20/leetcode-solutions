@@ -1,12 +1,16 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        mem = {}
-        if len(s) != len(t):
-            return False
+        char_index_s = {}
+        char_index_t = {}
+
         for i in range(len(s)):
-            if s[i] in mem.keys():
-                if t[i] != mem[s[i]]:
-                    return False
-            else:
-                mem[s[i]] = t[i]
+            if s[i] not in char_index_s:
+                char_index_s[s[i]] = i
+
+            if t[i] not in char_index_t:
+                char_index_t[t[i]] = i
+            
+            if char_index_s[s[i]] != char_index_t[t[i]]:
+                return False
+
         return True
