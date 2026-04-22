@@ -41,7 +41,7 @@ num only consists of digits and does not contain any leading zeros.
 ## Solution Performance
 
 - **Language:** python3
-- **Runtime:** 492 ms
-- **Memory:** 20.2 MB
+- **Runtime:** 8 ms
+- **Memory:** 20.1 MB
 
 > Synced automatically using **LeetVault**
