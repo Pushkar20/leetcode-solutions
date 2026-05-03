@@ -32,7 +32,7 @@ Constraints:
 ## Solution Performance
 
 - **Language:** python3
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 4 ms
+- **Memory:** 19.2 MB
 
 > Synced automatically using **LeetVault**

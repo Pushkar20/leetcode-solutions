@@ -7,7 +7,5 @@ class Solution:
                 # print(n, index, haystack[index:n+index])
                 if haystack[index:n+index] == needle:
                     return index
-                else:
-                    index = index + n - 1
             index += 1
         return -1
