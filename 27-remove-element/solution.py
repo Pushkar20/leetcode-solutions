@@ -1,6 +1,6 @@
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
-        if len(nums) == 1 and val in nums:
+        if len(set(nums)) == 1 and val in set(nums):
             return 0
         lp = 0
         hp = len(nums) - 1
