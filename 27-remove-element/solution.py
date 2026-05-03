@@ -1,5 +1,7 @@
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
+        if len(nums) == 1 and val in nums:
+            return 0
         lp = 0
         hp = len(nums) - 1
         while lp < hp:
