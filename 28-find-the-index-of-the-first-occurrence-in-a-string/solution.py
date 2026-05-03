@@ -4,7 +4,8 @@ class Solution:
         n = len(needle)
         while index < len(haystack):
             if haystack[index] == needle[0]:
-                if haystack[index:n] == needle:
+                # print(n, index, haystack[index:n+index])
+                if haystack[index:n+index] == needle:
                     return index
                 else:
                     index = index + n - 1
